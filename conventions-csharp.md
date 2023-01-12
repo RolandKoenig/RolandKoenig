@@ -49,5 +49,24 @@ class DummyClass
 }
 ```
 
-# Project
+# Project (.csproj)
 ## Treat warnings as erros
+Treat warnings as errors should always be active. If GenerateDocumentationFile is set to true, we may
+also need to suppress warnings [CS1591](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/cs1591) and
+[CS1712](https://learn.microsoft.com/en-us/dotnet/csharp/misc/cs1712). These warnings would pop up, if
+we forget to set a xml documentation on any member or type.
+```xml
+<PropertyGroup>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <NoWarn>1591,1712</NoWarn>
+</PropertyGroup>
+```
+
+## Enable NRT (Nullable Reference Types)
+
+```xml
+<PropertyGroup>
+    <Nullable>enable</Nullable>
+</PropertyGroup>
+```

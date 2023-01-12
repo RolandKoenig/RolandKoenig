@@ -2,8 +2,8 @@
  - 🔭 I'm Roland König
  - 🏢 I'm working as a freelance C# / .NET developer and software architect
  - ✏️ I focus on projects based on C# / .NET
- - 👯 I'm a co-organisator of [Digital Craftsmanship Nordoberpfalz](https://dc-nordoberpfalz.de/) 
- - 📓 I'm writing regularly on my [(german) block](https://www.rolandk.de/) about coding topics
+ - 🪧 I'm a co-organisator of [Digital Craftsmanship Nordoberpfalz](https://dc-nordoberpfalz.de/) 
+ - 📓 I'm writing regularly on my [(german) blog](https://www.rolandk.de/) about coding topics
  - 📫 You can reach me on [LinkedIn](https://www.linkedin.com/in/roland-k%C3%B6nig-6bb380160/)
  - 🌄 I love hiking
  - ✈️ I love traveling
