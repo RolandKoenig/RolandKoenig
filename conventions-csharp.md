@@ -6,8 +6,8 @@ Details may change from project to project or from customer to customer, dependi
 ## Baseline
 My Coding conventions are based on the official C# Coding Conventions from microsoft, see https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions. I do not change these. All following conventions should be seen as an extension.
 
-# Naming
-## Abbreviation
+# Naming and code style
+## Abbreviations
 Abbreviations always use the normal casing. For pascal case this meens that the first letter ist big and all following letters are small. This does also apply for short abbreviations like Db or Id.
 
 Example
@@ -36,15 +36,16 @@ class DummyClass
 }
 ```
 
-## Private field prefix
-Private fields should always have a prefix _ like _dummyField
+## Private field prefixes
+Private fields should always have a prefix _ like _dummyField.
+Static private fields should always have a prefix s_ like s_dummyStaticField
 
 Example
 ```csharp
 class DummyClass
 {
+    private static string s_dummyStaticField;
     private string _dummyString;
-
     //...
 }
 ```
