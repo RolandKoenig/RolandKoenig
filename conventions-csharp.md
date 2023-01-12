@@ -49,6 +49,11 @@ class DummyClass
 }
 ```
 
+## Don't use #region
+Not much to write on that
+
+
+
 # Project (.csproj)
 ## Treat warnings as erros
 Treat warnings as errors should always be active. If GenerateDocumentationFile is set to true, we may
@@ -64,6 +69,7 @@ we forget to set a xml documentation on any member or type.
 ```
 
 ## Enable NRT (Nullable Reference Types)
+Nullable Reference Types is a feature which helps to avoid NullReferenceExceptions
 
 ```xml
 <PropertyGroup>
