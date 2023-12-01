@@ -27,9 +27,7 @@
 ## Branching strategy
 - main
 - Branches out of main
-  - feature/[IssueId]-* (for new features)
-  - bug/[IssueId]-* (for bugfixes)
-  - ...
+  - [IssueId]-*
 
 ## Creating releases
 - Perform the following steps for creating a new release
